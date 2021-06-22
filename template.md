@@ -1,10 +1,8 @@
-[CENTER][IMG]http://i1094.photobucket.com/albums/i456/klozz_/XPerience1_zpsebdd4893.png[/IMG] 
-XPerience 11.X.X for the device
-Maded by Klozz Jesus AKA TeamMEX
-
-
-XPerience is a free, community built distribution of Android 7.1.1 (Nougat) which greatly extends the capabilities of your phone.
-This project are based on AOSP CAF
+[IMG]https://i.imgur.com/h4CgRmp.png[/IMG]
+[CENTER]
+XPerience is a free, community built distribution of Android 11.0.0 which greatly extends the capabilities of your phone.
+This project are based on AOSP/CAF
+The XPerience Project since 2011
 
 [CODE]#include <std_disclaimer.h>
 /*
@@ -17,105 +15,124 @@ This project are based on AOSP CAF
 * you point the finger at me for messing up your device, I will laugh at you.
 */[/CODE][/CENTER]
 
-
-[CENTER][B][I][U][FONT="Arial Black"][SIZE="4"]NOTE: READ this PLS[/SIZE][/FONT][/U][/I][/B]
+[B][I][U]NOTE: READ this PLS[/U][/I][/B]
 [QUOTE]
-All required device configs, blobs and kernel source are on my github u know the url :)
-[list]
-[*] Please don ask for etas
-[*] Please don't report same bugs all time
-[*] Report with logcat and dmesg
-[*] Screenshots representative only
-[/list]
-[/QUOTE][/CENTER]
+
+[LIST]
+[*]Please don't ask for etas
+[*]Please don't report same bugs all time
+[*]Report with logcat and dmesg
+[*]Screenshots representative only
+[/LIST]
+[/QUOTE]
 
 
-[B][U]Features:
-[/U][/B]
-[list]
-[*] Substratum support
-[*] XPerience Updater
-[*] NetworkTrafficMetter
-[*] Ambient Display with customizations
-[*] OMS-N7
-[*] Force expanded notifications
-[*] Disable inmersive messages
-[*] Inmersive recents
-[*] Alessa app for kernel tweaking.
-[*] XPerience Active Display
-[*] Pocket Judge
-    * Judge if device is in pocket.
-    * Notify clients callbacks when pocked state changes.
-    * Start listening when device becomes not interactive.
-    * Stop listening when device becomes interactive and is NOT in pocket.
-[*] policy: introduce pocket lock 
-[*] fingerprint: disable when device is in pocket 
-[*] One Hand mode (slide your finger across the navigation bat to switch between the standard and mini screen views(from the center))
-[*] App sidebar
-[*] Burning protect (Navbar and status bar (only on AMOLED display's)).
-[/list]
+[B]Features:[/B]
+[LIST]
+[*][B] Custom tiles (Caffeine, HeadsUP,Usb tether)[/B]
+[*][B] Power menu customizations (reboot to recovery one touch in advanced reboot, for bootloader do a long touch)[/B]
+[*][B]Theme appart dark, black[/B]
+[*][B] Bionic optimizations[/B]
+[*][B] NightFall Launcher our fork of Launcher3 (WIP)[/B]
+[*][B] 3 fingers swipe take screenshot[/B]
+[*][B] Lockscreen charging info[/B]
+[*][B] Navbar inverted layout (WIP)[/B]
+[*][B] Gaming optimizations (Also recommend to switch to completwe yuki kernel if exist for your device)[/B]
+[*][B] Edge lightning[/B]
+[*][B]Adaptive playback[/B]
+[*]Double tap to sleep on lockscreen
+[*]Work in progress...
+[/LIST]
 
 [B][U]WORKING:[/U][/B]
-Working
-[list]
-   [*] Rild
-   [*] LTE/3G/2G
-   [*] Bluetooth
-   [*] MTP
-   [*] Sensors
-   [*] Led
-   [*] Wi-Fi
-   [*] MUSIC
-   [*] sounds 
-   [*] Videos
-   [*] Camera
-   [*] camcoder
-   [*] SELinux
-[/list]
+[LIST]
+[*][B] Boot [/B]
+[*][B] Rild   [/B]
+[*][B] LTE/3G/2G[/B]
+[*][B] bluetooth   [/B]
+[*][B] Camera   [/B]
+[*][B] camcorder   [/B]
+[*][B] MTP   [/B]
+[*][B] Sensors   [/B]
+[*][B] Led   [/B]
+[*][B] Wi-Fi   [/B]
+[*][B] MUSIC   [/B]
+[*][B] sounds   [/B]
+[*][B] Videos  [/B]
+[*][B] DT2W[/B]
+[*][B] NFC[/B]
+[/LIST]
 
-[B][U]Not working/ Bugs:[/U][/B]
-[list]
-   [*] 
-   [*] 
-   [*] 
-[/list]
+[B]Bugs[/B]
+[LIST]
+[*][B] You tell me[/B]
+[/LIST]
 
-[B]How to install:[/B]
-[list]
-[*] Download zip from Downloads:
-[*] Put zip into Internal Storage
-[*] Reboot into Recovery like TWRP
-[*] Flash zip file XPerience-11.x.x-xxxxxxx-device.zip
-[*] Flash Gaaps
-[*] Wipe dalvick-cache and cache 
-[*] Reboot and config 
-[*] Reboot Again and enjoy!
-[/list]
+[B]CAF BRANCH:[/B]
+LA.QSSI.11.0.r1-01200-qssi.0
+[B]AOSP branch:[/B]
+android-11.0.0_r38
 
-[B]Screenshots:[/B]
-[IMG]https://lh3.googleusercontent.com/x9PMh0Oz9R4XLaBRFa1YYqUYI86g3W4c0tIaTHMKvsoQz4JJCn9vRhI84Ee92Y7X9uJr4TYq7LhSQOxYRrbg-Odn2eua4rtK=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/CAge6su7c4PdeEP02-d2NOxEMv2Y4DnMywU-ysFIwzPxLkBTjh-jcs0I_t2GnxeBRazKEOiQ5bU4Ttm2Ab6LQNtfUQdlfdu6=w1366-h768-rw-no[/IMG]
-[HIDE]
-[IMG]https://lh3.googleusercontent.com/0PXgwTgK5bgzf3U6QykAeaY_jfRVy4e1pt80HOZWZBDLUA1l8KPexLhgs48SMkjIQ6eDuuI7MHNIbsoRwS0scllMi1EttJtC=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/8GlDophHYZsU01CCb290oB7UC4avRNJY6SKcX1xU3fwYZWRA4Fj3PSuHUtBhk73IY-pqyE7fFYi2G4uWW7b_DuCVTlfRlvaZ=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/CUntWbf15v8tBRMttby0pViCXsGn22HuE5oJ3g9OXbcus2ybc3wnLGVggSXayByZOaShwr9kihLRmpHRvKXsaSwXxACOnkRt=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/T3A8t1SREN39a3tEJPsez8qVh8vNx-8odn2fF6IrXgMN67-W1UccmpYqH2ueYBEwjTe24dqyMTf24SerqIa88AN4OKFvoFnP=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/8blpKMnnvdvV8c52Q6IfF0J5Lz1jO03qrI9XMg2I8BmG2HJi0jgDs9J1_Qo2SEMRPvF2F4341m9BK1BOEasne0tA7PzJNkjx=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/82GlxsI3dqDPIZVrXT0F3QSkotrOGIoFxIgURZkEDjiGwC2i5C2TIQJqO5Tdo7lhuKSt8XZFUlEdL_RF9lzwFVwXy_Sk-tXa=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/9jNa0o3_JF3coi4ylH_0ehxbZapcEuB1QZXWz7I5-bNRBf3p0Fn45db2TEHamNfISVCmkgg7-EtRsbOlS-JxY5Uoox21M3zk=w1366-h768-rw-no[/IMG][IMG]https://lh3.googleusercontent.com/g4c1Y4dHMqNUM8I3EZtF3LgJrUSmp9Q6e7C33wpMK0yWFEpXwkTS86xclbLcOBTSVIvGv-jhd5y_u8PhtvcID65pt3sTP6fh=w1366-h768-rw-no[/IMG]
-
-[/HIDE]
+[IMG width="271px"]https://i.imgur.com/YOpsHzM.png[/IMG][IMG width="271px"]https://i.imgur.com/XddnlQ8.jpg[/IMG][IMG width="271px"]https://i.imgur.com/v66WWJb.png[/IMG][IMG width="271px"]https://i.imgur.com/rUfZU9P.png[/IMG][IMG width="271px"]https://i.imgur.com/Bhniggf.jpg[/IMG][IMG width="271px"]https://i.imgur.com/sX1i3Tp.png[/IMG]
 
 
-[CENTER][IMG]http://i1094.photobucket.com/albums/i456/klozz_/getxpe.png[/IMG]
-[URL="urlandroidfilehostfolderofxpe"] Android File Host[/URL]
+
+[CENTER][B][IMG]https://i.imgur.com/55XrtxW.png[/IMG]
+
+[URL='https://sourceforge.net/projects/xperience-aosp/files/miatoll/15/nightly/']Source forge[/URL]
 
 Or the web
-[URL="http://thexperienceproject.com"]http://thexperienceproject.com[/URL]
-[B]MD5:[/B]
+
+[URL]http://thexperienceproject.org[/URL][/B][/CENTER]
 
 
-[B]Google APPS[/B] 
-[URL="http://opengapps.org"]http://opengapps.org[/URL]
 
-[/CENTER]
+[B]GAPPS:[/B]
+Not needed. included
 
 
-[B]Changelog in second Post:[/B]
+
+[B]The XPerience Project 
+[U]Contributors[/U][/B]
+[URL='https://forum.xda-developers.com/member.php?u=4403780']TeamMex[/URL]
+[B]Source Code:[/B] [URL]https://github.com/TheXPerienceProject[/URL]
+
+[B]ROM OS Version:[/B] Android 11
+[B]ROM Kernel:[/B] Linux 4.14.x
+[B]ROM Firmware Required:[/B] Unlocked Bootloader
+[B]Based On:[/B] AOSP/ CAF
+
+[B][U]Version Information[/U]
+Status:[/B] NIGHTLY
+
+
+[B]Changes in second post 
+
+
+[I]Any bug not reported in the bug report format below may be ignored.[/I]
+
+[CODE]What is your--
+XPerience version:
+Download url:
+
+Did you--
+wipe:
+restore with titanium backup or swift backup (Say which):
+reboot after having the issue:
+
+Are you using--
+a task killer:
+a non-stock kernel(only yuki kernel is supported):
+other modifications:
+
+Provide any additional information (observations/frequency of problem/last version it worked on/etc) as needed:[/CODE][/B]
+
 
 [CENTER]
-[B][SIZE="4"][FONT="Comic Sans MS"]If you like my work, you can buy me a coffee with your donatives. All donations are appreciated. :) and this can help me to pay some bills about internet [/FONT][/SIZE][/B]
-[URL="http://forum.xda-developers.com/donatetome.php?u=4403780"][IMG]http://parentscouncil.org/sites/default/files/images/donate-paypal.png[/IMG][/URL][/CENTER]
+[B]If you like my work, you can buy me a coffee , coke or any drink :) all donations are appreciated.
+
+[URL='http://forum.xda-developers.com/donatetome.php?u=4403780'][IMG]https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif[/IMG][/URL]
+
+Ór
+
+[URL]https://www.paypal.me/TheXPerienceProject[/URL][/B][/CENTER]
